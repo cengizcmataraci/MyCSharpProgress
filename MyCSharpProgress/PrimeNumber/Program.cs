@@ -10,22 +10,22 @@ namespace PrimeNumber
     {
         static void Main(string[] args)
         {
-            int enteredNumber;  //The program want to take a number from user.
+            int enteredNumber;  //The program wants to take a number from user
             Console.Write("Please enter a number: ");
-            enteredNumber = Convert.ToInt32(Console.ReadLine()); //The entered number originally string type because of that this line converting number to integer type.
-            if (PrimeNumber(enteredNumber)) //The if block controlled to entered number from inside the PrimeNumber method.
+            enteredNumber = Convert.ToInt32(Console.ReadLine()); //The entered number is originally a string type because of the fact that this line converting number to integer type.
+            if (PrimeNumber(enteredNumber)) //The if block controls the entered number with the Prime Number method.
             {
-                Console.WriteLine("The number {0} is prime.", enteredNumber); //If enteredNumber is a prime then this line works.
+                Console.WriteLine("The number {0} is prime.", enteredNumber); //If enteredNumber is a prime number, this line works.
             }
             else
             {
-                Console.WriteLine("The number {0} is not prime.", enteredNumber); //If enteredNumber is not a prime then this line works.
+                Console.WriteLine("The number {0} is not prime.", enteredNumber); //If enteredNumber is not a prime number, this line works.
             }
 
-            Console.ReadLine(); //This line provide to not close window after the enteredNumber is taken.
+            Console.ReadLine(); //This line provide not to close window after the enteredNumber is taken.
         }
 
-        private static bool PrimeNumber(int number) //This method's purpose is check the number is prime or not.
+        private static bool PrimeNumber(int number) //This method's purpose is to check the number is prime or not.
         {
             bool result = true; //The result is true at the beginning because the number accepted as a prime at the beginning.
             for (int i = 2; i < number - 1; i++) //In of the for loop, i variable equals to 2 at the beginning. And as i variable raise to number-1 (which is int variable capacity '-2 147 483 648 to 2 147 483 648')
