@@ -1,0 +1,6 @@
+C:\Users\Hp\Desktop\MyCSharpProgress\MyCSharpProgress\PrimeNumber\bin\Debug\PrimeNumber.exe.config
+C:\Users\Hp\Desktop\MyCSharpProgress\MyCSharpProgress\PrimeNumber\bin\Debug\PrimeNumber.exe
+C:\Users\Hp\Desktop\MyCSharpProgress\MyCSharpProgress\PrimeNumber\bin\Debug\PrimeNumber.pdb
+C:\Users\Hp\Desktop\MyCSharpProgress\MyCSharpProgress\PrimeNumber\obj\Debug\PrimeNumber.csprojAssemblyReference.cache
+C:\Users\Hp\Desktop\MyCSharpProgress\MyCSharpProgress\PrimeNumber\obj\Debug\PrimeNumber.exe
+C:\Users\Hp\Desktop\MyCSharpProgress\MyCSharpProgress\PrimeNumber\obj\Debug\PrimeNumber.pdb
